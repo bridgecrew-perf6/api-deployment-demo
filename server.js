@@ -12,7 +12,7 @@ app.use(cors());
 const PORT = process.env.PORT || 3002;
 
 app.get('/', (request, response) => {
-    response.send('testing testing is this thing on????');
+    response.send('testing testing is this thing on???? ===> Made a change!');
 });
 
 app.get('/photos', async (request, response) => {
